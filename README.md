@@ -139,31 +139,31 @@ Aim: Uncover the functional programs associated with each archetype in each samp
 ## Part 4 - TransMyl_classification 
 Aim: Machine learning models for classification of transitory and specialist myeloid cell states in LUAD and CRC 
 
-     A. Code2_classification_merged_LUAD_v2_Myl.ipynb 
+     A. Code2_classification_merged_LUAD_v2_Myl.py
         Logistic regression, XGBoost, Random Forest models in LUAD
         
-     B. Code2_classification_merged_LUAD_v2_Myl_LGB.ipynb
+     B. Code2_classification_merged_LUAD_v2_Myl_LGB.py
         LightGBM model in LUAD
         
-     C. Code2_classification_merged_CRC_v2_Myl.ipynb
+     C. Code2_classification_merged_CRC_v2_Myl.py
         Logistic regression, XGBoost, Random Forest models in CRC
         
-     D. Code2_classification_merged_CRC_v2_Myl_LGB.ipynb 
+     D. Code2_classification_merged_CRC_v2_Myl_LGB.py 
         LightGBM model in CRC
 
 ## Part 5 - Tcell_classification 
 Aim: Machine learning models for classification of T/NK (or T) cells from samples harboring transitory myeloid states and T/NK (or T) cells from samples without transitory myeloid states 
 
-      A. Code2_classification_merged_LUAD_v2_TNK.ipynb 
+      A. Code2_classification_merged_LUAD_v2_TNK.py 
          Logistic regression, XGBoost, Random Forest models in LUAD 
          
-      B. Code2_classification_merged_LUAD_v2_TNK_LGB.ipynb
+      B. Code2_classification_merged_LUAD_v2_TNK_LGB.py
          LightGBM model in LUAD
          
-      C. Code2_classification_merged_CRC_v2_T.ipynb 
+      C. Code2_classification_merged_CRC_v2_T.py
          Logistic regression, XGBoost, Random Forest models in CRC
          
-      D. Code2_classification_merged_CRC_v2_T_LGB.ipynb 
+      D. Code2_classification_merged_CRC_v2_T_LGB.py 
          LightGBM model in CRC
 
 ## Part 6 - Tcell_DiffExprAnalysis
