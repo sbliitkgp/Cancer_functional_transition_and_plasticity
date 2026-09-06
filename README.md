@@ -135,8 +135,56 @@ Aim: Uncover the functional programs associated with each archetype in each samp
      E. code5_markers_exp_plot_celltype.ipynb
 
         Stack barplot of expression of marker genes in different cell types with cancer progression
+
+## Part 4 - TransMyl_classification 
+Aim: Machine learning models for classification of transitory and specialist myeloid cell states in LUAD and CRC 
+
+     A. Code2_classification_merged_LUAD_v2_Myl.ipynb 
+        Logistic regression, XGBoost, Random Forest models in LUAD
+        
+     B. Code2_classification_merged_LUAD_v2_Myl_LGB.ipynb
+        LightGBM model in LUAD
+        
+     C. Code2_classification_merged_CRC_v2_Myl.ipynb
+        Logistic regression, XGBoost, Random Forest models in CRC
+        
+     D. Code2_classification_merged_CRC_v2_Myl_LGB.ipynb 
+        LightGBM model in CRC
+
+## Part 5 - Tcell_classification 
+Aim: Machine learning models for classification of T/NK (or T) cells from samples harboring transitory myeloid states and T/NK (or T) cells from samples without transitory myeloid states 
+
+      A. Code2_classification_merged_LUAD_v2_TNK.ipynb 
+         Logistic regression, XGBoost, Random Forest models in LUAD 
          
+      B. Code2_classification_merged_LUAD_v2_TNK_LGB.ipynb
+         LightGBM model in LUAD
          
+      C. Code2_classification_merged_CRC_v2_T.ipynb 
+         Logistic regression, XGBoost, Random Forest models in CRC
+         
+      D. Code2_classification_merged_CRC_v2_T_LGB.ipynb 
+         LightGBM model in CRC
+
+## Part 6 - Tcell_DiffExprAnalysis
+Aim: Differential expression analysis of T/NK (or T) cells from samples harboring transitory myeloid states compared to T/NK (or T) cells from samples without transitory myeloid states 
+
+      A. Rcode_MAST_scDiffExpr_LUAD.R
+         Differential expression analysis using MAST in LUAD 
+         
+      B. Rcode_MAST_scDiffExpr_CRC.R 
+         Differential expression analysis using MAST in CRC
+
+## Part 7 - TF_mapping_AUCell
+Aim: Evaluating activity of transcription factors and their associated regulons in transitory and specialist myeloid cells as well as for intra-sample and inter-sample functional plasticity
+
+      A. Transitions_GRN_map_TransMyl_LUAD.R 
+         Evaluating activity of transcription factors and their associated regulons in transitory and specialist myeloid cells in LUAD 
+
+      B. Plasticity_archetype_tf_mapping_LUAD.R 
+         Evaluating activity of transcription factors and their associated regulons in cases of intra-sample and inter-sample functional plasticity in LUAD 
+
+      
          
          
    
